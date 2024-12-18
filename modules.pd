@@ -1,0 +1,7 @@
+#N canvas 324 440 976 989 12;
+#X obj 95 46 adc~;
+#X obj 90 580 dac~;
+#X obj 120 90 bear-granulator~;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X connect 2 0 1 1;
